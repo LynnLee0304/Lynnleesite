@@ -35,6 +35,16 @@ window.onload = function(){
         oq.style.display = 'none';
     };
 
+    $('#name').click(function(){
+        $(this).val('');
+    });
+    $('#mob').click(function(){
+        $(this).val('');
+    });
+    $('#content').click(function(){
+        $(this).val('');
+    });
+
     var oSubmit = document.getElementById('sub');
 
     oSubmit.onclick = function () {
