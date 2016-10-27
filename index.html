@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Lynn的小站</title>
+    <link rel="stylesheet" href="css/demo.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <script src="js/demo.js"></script>
+    <script src="bootstrap/js/jquery-2.2.3.min.js"></script>
+</head>
+
+<body>
+<!--右侧主要内容-->
+<div id="left" class="left">
+
+    <!--头图-->
+    <header>
+        <img src="images/banner.jpg"/>
+    </header>
+
+    <!--自我介绍-->
+    <section id="one" class="one">
+        <h2><strong>Lynn Lee</strong></h2>
+        <span>呀，终于等到你</span>
+        <p>
+            我是<strong>lynn</strong>,欢迎大家来到我的小站<i class="fa fa-television"></i>
+            你在这个网站上看见的一切技术都是我一点点学习得来的<i class="fa fa-heart-o"></i>
+            一年前的我对前端一无所知，一年后的我居然可以通过自己努力建立一个属于自己网站<i class="fa fa-pencil"></i>
+            这，是一年前的我不敢想象的<i class="fa fa-cloud"></i>
+            通过这将近一年的自学，我对前端从一无所知到逐渐了解<i class="fa fa-bookmark-o"></i>
+            也是在这一年中，我坚定了我的前端之路<i class="fa fa-road"></i>
+            现在它已经成为我生活中不可或缺的一部分<i class="fa fa-snapchat"></i>
+            愿，我能够在前端的世界里发现更大的世界<i class="fa fa-heart-o"></i>
+        </p>
+    </section>
+
+    <!--技能-->
+    <section id="two" class="two">
+        <h2>我能做什么</h2>
+        <span>这一年我自学会的</span>
+        <ul class="skill">
+            <li>
+                <i class="fa fa-code"></i> HTML&CSS&JS
+            </li>
+            <li>
+               <i class="fa fa-html5"></i> HTML5&CSS3
+            </li>
+            <li>
+               <i class="fa fa-pencil-square-o"></i> jQuery&jQuery UI
+            </li>
+            <li>
+               <i class="fa fa-television"></i> Bootstrap
+            </li>
+            <li>
+               <i class="fa fa-github"></i> Github
+            </li>
+            <li>
+               <i class="fa fa-file-word-o"></i> font-awesome
+            </li>
+        </ul>
+    </section>
+
+    <!--文章-->
+    <section id="three" class="three">
+        <h2>我的笔记</h2>
+
+        <article id="text-one" class="text-one">
+                <a href="note.html" target="_blank">
+                    <img src="images/1.jpeg"/>
+                </a>
+            <div class="inner">
+                <h4>输入网址到看到页面中发生了什么</h4>
+                <p>
+                    1.首先我们了解下网址的构成。以本站为例，"http://www.lynnlee.xyz/我的笔记.html"
+                    其实是个URL，也就是Uniform...
+                </p>
+            </div>
+        </article>
+
+        <article id="text-two" class="two">
+            <a href="note.html" target="_blank">
+                <img src="images/8.jpg"/>
+            </a>
+            <div class="inner">
+                <h4>隐藏元素的四种方法</h4>
+                <p>
+                    给元素设置display:none;的属性值之后，元素会在文档流中消失。后续的元素会替补这个元...
+                </p>
+            </div>
+        </article>
+
+        <article id="text-three" class="three">
+            <a href="note.html" target="_blank">
+                <img src="images/3.jpg"/>
+            </a>
+            <div class="inner">
+                <h4>CSS实现元素居中的方法</h4>
+                <p>
+                    left值=(100%-width)/2 ,top值=(100%-height)/2 。这是因为div的left/top的值并不等于50%，
+                    这个值应该是页面的宽高-div自身的宽高的差除以二才能达到居中的效果...
+                </p>
+            </div>
+        </article>
+
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>联系我</h2>
+        <div class="top">
+            <input type="text" id="name" class="name" value="姓名"/>
+            <input type="text" id="mob" class="email" value="手机号"/>
+        </div>
+        <div class="content">
+            <input type="text" value="内容" id="content" class="message"/>
+            <input id="sub" value="发送" class="btn"/>
+        </div>
+
+    </section>
+
+    <!--页脚内容-->
+    <footer>
+        <span>Design Idea : <a href="https://html5up.net/">HTML5 UP</a></span>
+        <span>Demo Images: <a href="https://unsplash.com/">Unsplash</a></span>
+    </footer>
+</div>
+
+<!--左侧菜单-->
+<div id="right" class="right">
+    <i class="fa fa-close" id="menuclose"></i>
+    <header>
+        <img src="images/logo.jpg"/>
+        <h4>Lynn Lee的小站</h4>
+    </header>
+    <div class="menu">
+        <div class="one">
+            <a href="index.html">
+                关于我
+            </a>
+        </div>
+        <div class="two">
+            <a href="index.html">
+                我会的
+            </a>
+        </div>
+        <div class="three">
+            <a href="note.html" target="_blank">
+                我的笔记
+            </a>
+        </div>
+        <div class="four">
+            <a href="index.html">
+               联系我
+            </a>
+        </div>
+    </div>
+    <div class="bottom">
+        <a href="#" id="wechat">
+            <i class="fa fa-wechat" ></i>
+        </a>
+        <a href="https://github.com/LynnLee0304" target="_blank">
+            <i class="fa fa-github"></i>
+        </a>
+        <a href="#" id="qq">
+            <i class="fa fa-qq"></i>
+        </a>
+    </div>
+</div>
+<div id="menulogo" class="menulogo">
+    <i class="fa fa-bars"></i>
+</div>
+
+<div class="wechat" id="wc">
+    <img src="images/wechat.png"/>
+    <i class=" fa fa-close" id="wclose"></i>
+</div>
+<div class="qq" id="q">
+    <img src="images/QQ.jpg"/>
+    <i class=" fa fa-close" id="qclose"></i>
+</div>
+</body>
+</html>
